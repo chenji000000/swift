@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		855F038F1C326461005E9394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F038E1C326461005E9394 /* AppDelegate.swift */; };
+		855F03911C326461005E9394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F03901C326461005E9394 /* ViewController.swift */; };
+		855F03941C326461005E9394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855F03921C326461005E9394 /* Main.storyboard */; };
+		855F03961C326461005E9394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855F03951C326461005E9394 /* Assets.xcassets */; };
+		855F03991C326461005E9394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 855F03971C326461005E9394 /* LaunchScreen.storyboard */; };
+		855F03A41C326461005E9394 /* WShenBianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F03A31C326461005E9394 /* WShenBianTests.swift */; };
+		855F03AF1C326461005E9394 /* WShenBianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F03AE1C326461005E9394 /* WShenBianUITests.swift */; };
+		855F03BD1C3271D2005E9394 /* UIVIew_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855F03BC1C3271D2005E9394 /* UIVIew_Extension.swift */; };
+		855F03C41C327724005E9394 /* MBProgressHUD+KR.m in Sources */ = {isa = PBXBuildFile; fileRef = 855F03C01C327724005E9394 /* MBProgressHUD+KR.m */; };
+		855F03C51C327724005E9394 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 855F03C11C327724005E9394 /* MBProgressHUD.bundle */; };
+		855F03C61C327724005E9394 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 855F03C31C327724005E9394 /* MBProgressHUD.m */; };
+		855F03C91C32777C005E9394 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 855F03C81C32777C005E9394 /* MyObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		855F03A01C326461005E9394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855F03831C326461005E9394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855F038A1C326461005E9394;
+			remoteInfo = WShenBian;
+		};
+		855F03AB1C326461005E9394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855F03831C326461005E9394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855F038A1C326461005E9394;
+			remoteInfo = WShenBian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		855F038B1C326461005E9394 /* WShenBian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WShenBian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		855F038E1C326461005E9394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		855F03901C326461005E9394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		855F03931C326461005E9394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		855F03951C326461005E9394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		855F03981C326461005E9394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		855F039A1C326461005E9394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855F039F1C326461005E9394 /* WShenBianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WShenBianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		855F03A31C326461005E9394 /* WShenBianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WShenBianTests.swift; sourceTree = "<group>"; };
+		855F03A51C326461005E9394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855F03AA1C326461005E9394 /* WShenBianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WShenBianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		855F03AE1C326461005E9394 /* WShenBianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WShenBianUITests.swift; sourceTree = "<group>"; };
+		855F03B01C326461005E9394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855F03BC1C3271D2005E9394 /* UIVIew_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVIew_Extension.swift; sourceTree = "<group>"; };
+		855F03BF1C327724005E9394 /* MBProgressHUD+KR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+KR.h"; sourceTree = "<group>"; };
+		855F03C01C327724005E9394 /* MBProgressHUD+KR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+KR.m"; sourceTree = "<group>"; };
+		855F03C11C327724005E9394 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		855F03C21C327724005E9394 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		855F03C31C327724005E9394 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		855F03C71C32777C005E9394 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		855F03C81C32777C005E9394 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		855F03CB1C327A20005E9394 /* OCBridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBridging.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		855F03881C326461005E9394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855F039C1C326461005E9394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855F03A71C326461005E9394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		855F03821C326461005E9394 = {
+			isa = PBXGroup;
+			children = (
+				855F038D1C326461005E9394 /* WShenBian */,
+				855F03A21C326461005E9394 /* WShenBianTests */,
+				855F03AD1C326461005E9394 /* WShenBianUITests */,
+				855F038C1C326461005E9394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		855F038C1C326461005E9394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				855F038B1C326461005E9394 /* WShenBian.app */,
+				855F039F1C326461005E9394 /* WShenBianTests.xctest */,
+				855F03AA1C326461005E9394 /* WShenBianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		855F038D1C326461005E9394 /* WShenBian */ = {
+			isa = PBXGroup;
+			children = (
+				855F03CB1C327A20005E9394 /* OCBridging.h */,
+				855F03BE1C327724005E9394 /* MBProgessHUD */,
+				855F038E1C326461005E9394 /* AppDelegate.swift */,
+				855F03901C326461005E9394 /* ViewController.swift */,
+				855F03921C326461005E9394 /* Main.storyboard */,
+				855F03951C326461005E9394 /* Assets.xcassets */,
+				855F03971C326461005E9394 /* LaunchScreen.storyboard */,
+				855F039A1C326461005E9394 /* Info.plist */,
+				855F03BC1C3271D2005E9394 /* UIVIew_Extension.swift */,
+				855F03C71C32777C005E9394 /* MyObject.h */,
+				855F03C81C32777C005E9394 /* MyObject.m */,
+			);
+			path = WShenBian;
+			sourceTree = "<group>";
+		};
+		855F03A21C326461005E9394 /* WShenBianTests */ = {
+			isa = PBXGroup;
+			children = (
+				855F03A31C326461005E9394 /* WShenBianTests.swift */,
+				855F03A51C326461005E9394 /* Info.plist */,
+			);
+			path = WShenBianTests;
+			sourceTree = "<group>";
+		};
+		855F03AD1C326461005E9394 /* WShenBianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				855F03AE1C326461005E9394 /* WShenBianUITests.swift */,
+				855F03B01C326461005E9394 /* Info.plist */,
+			);
+			path = WShenBianUITests;
+			sourceTree = "<group>";
+		};
+		855F03BE1C327724005E9394 /* MBProgessHUD */ = {
+			isa = PBXGroup;
+			children = (
+				855F03BF1C327724005E9394 /* MBProgressHUD+KR.h */,
+				855F03C01C327724005E9394 /* MBProgressHUD+KR.m */,
+				855F03C11C327724005E9394 /* MBProgressHUD.bundle */,
+				855F03C21C327724005E9394 /* MBProgressHUD.h */,
+				855F03C31C327724005E9394 /* MBProgressHUD.m */,
+			);
+			path = MBProgessHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		855F038A1C326461005E9394 /* WShenBian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855F03B31C326461005E9394 /* Build configuration list for PBXNativeTarget "WShenBian" */;
+			buildPhases = (
+				855F03871C326461005E9394 /* Sources */,
+				855F03881C326461005E9394 /* Frameworks */,
+				855F03891C326461005E9394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WShenBian;
+			productName = WShenBian;
+			productReference = 855F038B1C326461005E9394 /* WShenBian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		855F039E1C326461005E9394 /* WShenBianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855F03B61C326461005E9394 /* Build configuration list for PBXNativeTarget "WShenBianTests" */;
+			buildPhases = (
+				855F039B1C326461005E9394 /* Sources */,
+				855F039C1C326461005E9394 /* Frameworks */,
+				855F039D1C326461005E9394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855F03A11C326461005E9394 /* PBXTargetDependency */,
+			);
+			name = WShenBianTests;
+			productName = WShenBianTests;
+			productReference = 855F039F1C326461005E9394 /* WShenBianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		855F03A91C326461005E9394 /* WShenBianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855F03B91C326461005E9394 /* Build configuration list for PBXNativeTarget "WShenBianUITests" */;
+			buildPhases = (
+				855F03A61C326461005E9394 /* Sources */,
+				855F03A71C326461005E9394 /* Frameworks */,
+				855F03A81C326461005E9394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855F03AC1C326461005E9394 /* PBXTargetDependency */,
+			);
+			name = WShenBianUITests;
+			productName = WShenBianUITests;
+			productReference = 855F03AA1C326461005E9394 /* WShenBianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		855F03831C326461005E9394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = tarena;
+				TargetAttributes = {
+					855F038A1C326461005E9394 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					855F039E1C326461005E9394 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 855F038A1C326461005E9394;
+					};
+					855F03A91C326461005E9394 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 855F038A1C326461005E9394;
+					};
+				};
+			};
+			buildConfigurationList = 855F03861C326461005E9394 /* Build configuration list for PBXProject "WShenBian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 855F03821C326461005E9394;
+			productRefGroup = 855F038C1C326461005E9394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				855F038A1C326461005E9394 /* WShenBian */,
+				855F039E1C326461005E9394 /* WShenBianTests */,
+				855F03A91C326461005E9394 /* WShenBianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		855F03891C326461005E9394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855F03991C326461005E9394 /* LaunchScreen.storyboard in Resources */,
+				855F03C51C327724005E9394 /* MBProgressHUD.bundle in Resources */,
+				855F03961C326461005E9394 /* Assets.xcassets in Resources */,
+				855F03941C326461005E9394 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855F039D1C326461005E9394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855F03A81C326461005E9394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		855F03871C326461005E9394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855F03911C326461005E9394 /* ViewController.swift in Sources */,
+				855F03BD1C3271D2005E9394 /* UIVIew_Extension.swift in Sources */,
+				855F03C91C32777C005E9394 /* MyObject.m in Sources */,
+				855F03C61C327724005E9394 /* MBProgressHUD.m in Sources */,
+				855F03C41C327724005E9394 /* MBProgressHUD+KR.m in Sources */,
+				855F038F1C326461005E9394 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855F039B1C326461005E9394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855F03A41C326461005E9394 /* WShenBianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855F03A61C326461005E9394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855F03AF1C326461005E9394 /* WShenBianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		855F03A11C326461005E9394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855F038A1C326461005E9394 /* WShenBian */;
+			targetProxy = 855F03A01C326461005E9394 /* PBXContainerItemProxy */;
+		};
+		855F03AC1C326461005E9394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855F038A1C326461005E9394 /* WShenBian */;
+			targetProxy = 855F03AB1C326461005E9394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		855F03921C326461005E9394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855F03931C326461005E9394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		855F03971C326461005E9394 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				855F03981C326461005E9394 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		855F03B11C326461005E9394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		855F03B21C326461005E9394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		855F03B41C326461005E9394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WShenBian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WShenBian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WShenBian/OCBridging.h;
+			};
+			name = Debug;
+		};
+		855F03B51C326461005E9394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WShenBian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WShenBian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WShenBian/OCBridging.h;
+			};
+			name = Release;
+		};
+		855F03B71C326461005E9394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WShenBianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WShenBianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WShenBian.app/WShenBian";
+			};
+			name = Debug;
+		};
+		855F03B81C326461005E9394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WShenBianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WShenBianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WShenBian.app/WShenBian";
+			};
+			name = Release;
+		};
+		855F03BA1C326461005E9394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WShenBianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WShenBianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WShenBian;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		855F03BB1C326461005E9394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WShenBianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.tedu.WShenBianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WShenBian;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		855F03861C326461005E9394 /* Build configuration list for PBXProject "WShenBian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855F03B11C326461005E9394 /* Debug */,
+				855F03B21C326461005E9394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855F03B31C326461005E9394 /* Build configuration list for PBXNativeTarget "WShenBian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855F03B41C326461005E9394 /* Debug */,
+				855F03B51C326461005E9394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		855F03B61C326461005E9394 /* Build configuration list for PBXNativeTarget "WShenBianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855F03B71C326461005E9394 /* Debug */,
+				855F03B81C326461005E9394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		855F03B91C326461005E9394 /* Build configuration list for PBXNativeTarget "WShenBianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855F03BA1C326461005E9394 /* Debug */,
+				855F03BB1C326461005E9394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 855F03831C326461005E9394 /* Project object */;
+}
